@@ -136,11 +136,13 @@ String str = json.toString();//将json对象转换为字符串
 
 
 	package baz.cons;
-	 
-	 
+
+
+​	 
 	import net.sf.json.JSONObject;
-	 
-	 
+
+
+​	 
 	/**
 	 * 将java对象转换为json字符串
 	 * @author Administrator
@@ -159,7 +161,7 @@ String str = json.toString();//将json对象转换为字符串
 			return str;
 		}
 	}
-	
+
 
 测试类：	
 
@@ -194,9 +196,15 @@ String str = json.toString();//将json对象转换为字符串
 	}
 
 测试输出如下：
+
 gu 123456 male 24
+
 Name:gu
+
 Num:123456
+
 Sex:male
+
 age:24
+
 {"age":23,"name":"gu1","num":123,"sex":"male"}
